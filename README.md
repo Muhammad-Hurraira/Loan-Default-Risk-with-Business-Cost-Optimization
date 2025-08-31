@@ -21,7 +21,7 @@ Traditional models optimize for accuracy/AUC. Lenders care about **money**. This
 
 ### 1) Setup
 ```bash
-git clone https://github.com/your-username/loan-default-risk.git
+git clone https://github.com/Muhammad-Hurraira/loan-default-risk.git
 cd loan-default-risk
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -U pip
@@ -121,6 +121,11 @@ cat_model.save_model("artifacts/cat_model.cbm")               # CatBoost native 
 
 - **Monitoring**
   - Drift detection (feature/score drift), alerting, and periodic threshold re-tuning based on latest cost assumptions.
+
+-  **Contact**
+
+For any queries or feedback, feel free to connect!
+- LinkedIn: https://www.linkedin.com/in/muhammad-hurraira-0993a4346/
 
 ---
 
